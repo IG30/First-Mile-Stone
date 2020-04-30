@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100, 200, 300, 400, 500, 600, 700| Exo: 100, 200, 300, 400, 500, 600, 700");
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/*-----------------Header--*/
+
+header {
+  margin: 0;
+  background-color: #777777
+}
+
+#name {
+    font-family: "Roboto", sans-serif;
+  float: left;
+  font-size: 200%;
+  margin: 20px 0px 0px 30px;
+  color: #fff;
+}
+
+
+#menu {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
+  height: 600px;
+  color: #fff;
+}
+
+a,
+#menu {
+  line-height: 75px;
+}
+
+#menu li {
+  float: right;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
