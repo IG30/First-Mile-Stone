@@ -13,7 +13,8 @@
 
 header {
   margin: 0;
-  background-color: #777777
+  background-color: #777777;
+  height: 100px;
 }
 
 
@@ -47,4 +48,8 @@ a,
 #menu a {
   text-decoration: none;
   color: inherit;
+}
+
+.active{
+  border-bottom: 1px solid #fff;
 }
