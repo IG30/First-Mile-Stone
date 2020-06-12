@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100, 200, 300, 400, 500, 600, 700| Exo: 100, 200, 300, 400, 500, 600, 700");
+body {
+    background-color: #fdfdfd;
+    font-family: 'Anton', sans-serif;
+}
 
 
 /*------NAVBAR-------*/
@@ -31,9 +34,15 @@
 
 .title{
 margin-top: 8%;
-margin-right: 8%;
+margin-right: 15%;
 text-align: right;
 color:#F5FFFA;
 }
 
+.title h1{
+    font-size: 4.5rem
+}
 
+.title p {
+    font-size: 2.25rem
+}
