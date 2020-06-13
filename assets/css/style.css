@@ -46,3 +46,21 @@ color:#F5FFFA;
 .title p {
     font-size: 2.25rem
 }
+
+/*----About----*/
+
+#about{
+    background-color: #C0C0C0;
+}
+
+.about-text{
+    height: 30%;
+    float: left;
+    background-color: transparent;
+}
+
+.photo{
+    height: 30%;
+    float: right;
+    background-color: transparent;
+}
