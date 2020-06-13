@@ -50,7 +50,7 @@ color:#F5FFFA;
 /*----About----*/
 
 #about{
-    background-color: #C0C0C0;
+    background-color: #F5F5F5;
 }
 
 .about-text{
@@ -63,4 +63,23 @@ color:#F5FFFA;
     height: 30%;
     float: right;
     background-color: transparent;
+}
+
+#photo-circle-border{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#photo-circle-cover{
+    background: url('../images/ignacio.santana.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 150%;
 }
