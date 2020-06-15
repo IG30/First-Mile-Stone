@@ -57,6 +57,9 @@ color:#F5FFFA;
     height: 30%;
     float: left;
     background-color: transparent;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .photo{
@@ -73,13 +76,8 @@ color:#F5FFFA;
     border-color: #000000;
     border-width: 0.5px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-#photo-circle-cover{
     background: url('../images/ignacio.santana.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 150%;
 }
