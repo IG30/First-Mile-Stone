@@ -50,16 +50,27 @@ color:#F5FFFA;
 /*----About----*/
 
 #about{
-    background-color: #F5F5F5;
+    background-attachment: fixed;
+    background-image: url('../images/paper-pattern.jpg') no-repeat;
 }
 
 .about-text{
     height: 30%;
     float: left;
     background-color: transparent;
-    margin-left: 150px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.about-text h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color:#708090;
+}
+
+.about-text p {
+    margin-left: 20px;
 }
 
 .photo{
@@ -72,12 +83,18 @@ color:#F5FFFA;
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-style: solid;
-    border-color: #000000;
     border-width: 0.5px;
     border-radius: 50%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     background: url('../images/ignacio.santana.jpg') no-repeat center center;
+    z-index: 1;
+}
+
+/*------Skills------*/
+
+#skills{
+    background-attachment: fixed;
+    background-image: url('../images/black-texture.jpg');
 }
