@@ -1,6 +1,4 @@
 body {
-    margin: 0;
-    padding: 0;
     background-color: #fdfdfd;
     font-family: 'Anton', sans-serif;
 }
@@ -53,7 +51,7 @@ color:#F5FFFA;
 
 #about {
     background-attachment: fixed;
-    background-image: url('../images/black-fabric.jpg');
+    background-image: url('../images/vinyl-disc.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -117,6 +115,12 @@ color:#F5FFFA;
     position: relative;
     margin-bottom: 0px;
     color: #FFF5EE;
+}
+
+.skills-header h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
 }
 
 .container{
@@ -223,19 +227,23 @@ svg circle {
 }
 
 svg circle:nth-child(2){
-    stroke-dasharray: 220;
-    stroke-dashoffset: 220;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
 }
 
 
 .card:nth-child(1) svg circle:nth-child(2){
+
+    stroke-dashoffset: calc(440 - (440 * 90) / 100 );
     stroke: #00ff43;
 }
 
 .card:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 85) / 100 );
     stroke: #00a1ff;
 }
 
 .card:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 40) / 100 );
     stroke: #ff4aff;
 }
