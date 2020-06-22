@@ -1,5 +1,4 @@
 body {
-  background-color: #fdfdfd;
   font-family: "Anton", sans-serif;
 }
 
@@ -62,36 +61,24 @@ body {
   margin: 0 auto;
   margin-top: 50px;
   margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 20px;
   color: #f5fffa;
 }
 
+hr {
+  border-top: 1px solid #777777;
+  width: 100%;
+}
+
 .about-text h2 {
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   color: #f5fffa;
 }
 
 .about-text p {
   margin-left: 20px;
-}
-
-.photo {
-  height: 30%;
-  float: right;
-  background-color: transparent;
-}
-
-#photo-circle-border {
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  background: url("../images/ignacio.santana.jpg") no-repeat;
-  z-index: 1;
 }
 
 /*------Skills------*/
@@ -105,9 +92,19 @@ body {
   color: #fff5ee;
 }
 
+.skills-header {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
 .skills-header h3 {
   margin-top: 20px;
-  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
   font-size: 60px;
 }
 
@@ -134,9 +131,9 @@ body {
 
 .container-skills .card:hover {
   /* to create this shadow effect I used this website https://cssmatic.com/box-shadow*/
-  -webkit-box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
--moz-box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
-box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
+  -webkit-box-shadow: inset 0px 25px 297px -64px rgba(156, 171, 171, 1);
+  -moz-box-shadow: inset 0px 25px 297px -64px rgba(156, 171, 171, 1);
+  box-shadow: inset 0px 25px 297px -64px rgba(156, 171, 171, 1);
 }
 
 .percent {
@@ -230,90 +227,30 @@ svg circle:nth-child(2) {
 
 /*------------Projects-----*/
 
-
-#projects{
-    background-color: black;
+#projects {
+  background-color: black;
+  color: #fff5ee;
 }
 
-.project-cards {
-    display: inline-table;
-    justify-content: center;
-    align-items: center;
-}
-
-.col-xs-6 {
-    align-items: center;
-}
-
-.project-example {
-    background-color: #fdfdfd;
-    border-radius: 2.5%;
-    width: 18em;
-    height: 18em;
-    top: 50%;
-    margin: 15% auto;
-    padding: 15px;
-    align-items: center;
-    z-index: 2;
-    display: block;
-    opacity: 0.8;
-    transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-}
-
-.card-body .row {
-    text-align: center;
-    padding-top: 10px;
-}
-
-
-.card:hover {
-    opacity: 1;
-}
-
-.card-title {
-    font-size: 1.25em;
-    font-weight: bold;
-}
-
-.card-subtitle {
-    font-size: 1.1em;
-    font-weight: bold;
-}
-
-.card-body .card-text {
-    font-size: 1.07em;
-}
-
-
-
-.desktop-icon {
-    padding: 20px 0;
-    border-radius: 50%;
-    font-size: 34px;
-    width: 54px;
-    height: 54px;
-    line-height: 18px;
-}
-
-.github-icon {
-    padding: 20px 0;
-    border-radius: 50%;
-    font-size: 36px;
-    width: 54px;
-    height: 54px;
-    line-height: 14px;
+.project-header {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 /*-----------Contact--------*/
 
-#contact{
-    background-color: black;
+#contact {
+  background-color: black;
+  color: #fff5ee;
 }
 
-
-.form-group{
-    width: 50%;
-
+.contact-header {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
