@@ -111,7 +111,7 @@ body {
 
 .container-skills {
   position: relative;
-  width: 900px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -134,7 +134,9 @@ body {
 
 .container-skills .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
+-moz-box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
+box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
 }
 
 .percent {
@@ -186,7 +188,7 @@ body {
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  transition: 0.5 ease-in-out; /*remember to put the code for all the browsers*/
+  transition: 0.5s ease-in-out; /*remember to put the code for all the browsers*/
 }
 
 svg {
@@ -308,4 +310,10 @@ svg circle:nth-child(2) {
 
 #contact{
     background-color: black;
+}
+
+
+.form-group{
+    width: 50%;
+
 }
