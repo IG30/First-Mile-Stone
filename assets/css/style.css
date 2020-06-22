@@ -96,6 +96,8 @@ body {
 
 /*------Skills------*/
 
+/* For this section a followed a tutorial about svg on youtube. I have adapted some of the styles to fit my project */
+
 #skills {
   background-color: black;
   width: 100%;
@@ -112,7 +114,6 @@ body {
 .container-skills {
   position: relative;
   width: 100%;
-  display: flex;
   justify-content: space-around;
 }
 
@@ -122,7 +123,6 @@ body {
   height: 300px;
   background: transparent;
   border: none;
-  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
@@ -133,7 +133,7 @@ body {
 }
 
 .container-skills .card:hover {
-  transform: translateY(-10px);
+  /* to create this shadow effect I used this website https://cssmatic.com/box-shadow*/
   -webkit-box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
 -moz-box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
 box-shadow: inset 0px 25px 297px -64px rgba(156,171,171,1);
