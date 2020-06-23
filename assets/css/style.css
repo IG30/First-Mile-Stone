@@ -247,6 +247,12 @@ svg circle:nth-child(2) {
   text-transform: uppercase;
 }
 
+.project-card{
+    background:	#F5F5F5;
+    border: 1px solid #777777;
+    color:#777777;
+}
+
 /*-----------Contact--------*/
 
 #contact {
@@ -269,12 +275,15 @@ svg circle:nth-child(2) {
     padding-left: 50px;
 }
 
-
-.form-group{
-    width: 50%;
+.contact-details p {
+    margin-bottom: 0;
 }
 
-#contact-btn{
-    margin-left: 50px;
-    padding-left: 20px;
+
+.form-group{
+    width: 75%;
+}
+
+form button{
+    align-items: right;
 }
