@@ -125,8 +125,9 @@ hr {
   border-radius: 4px;
   text-align: center;
   overflow: hidden;
-  transition: 0.5s ease-in-out;
-  /*remember to put the code for other browsers*/
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .container-skills .card:hover {
@@ -161,7 +162,9 @@ hr {
 .percent .number h2 {
   color: whitesmoke; /*check the color codes and improve them*/
   font-size: 40px;
-  transition: 0.5s ease-in-out; /*remember to put the code for all the browsers*/
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .card:hover .percent .number h2 {
@@ -172,7 +175,9 @@ hr {
 .percent .number h2 span {
   font-size: 20px;
   color: whitesmoke;
-  transition: 0.5s ease-in-out; /*remember to put the code for all the browsers*/
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .card:hover .percent .number h2 span {
@@ -185,7 +190,9 @@ hr {
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  transition: 0.5s ease-in-out; /*remember to put the code for all the browsers*/
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 svg {
@@ -245,12 +252,29 @@ svg circle:nth-child(2) {
 #contact {
   background-color: black;
   color: #fff5ee;
+  padding-bottom: 30px;
 }
 
+
 .contact-header {
+    width: 100%;
   margin-top: 50px;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+
+.contact-details{
+    padding-left: 50px;
+}
+
+
+.form-group{
+    width: 50%;
+}
+
+#contact-btn{
+    margin-left: 50px;
+    padding-left: 20px;
 }
