@@ -124,7 +124,6 @@ hr {
   align-items: center;
   border-radius: 4px;
   text-align: center;
-  overflow: hidden;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
