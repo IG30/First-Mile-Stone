@@ -373,7 +373,7 @@ footer{
 
 /*------Media-Queries------*/
 
-@media screen and (max-width:576px){
+@media screen and (max-width:767px){
     .work-exp {
         padding-left: 50px;
     }
