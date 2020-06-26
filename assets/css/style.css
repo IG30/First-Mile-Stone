@@ -45,6 +45,12 @@ body {
   font-size: 2.25rem;
 }
 
+/*-------- General Section Style ---------*/
+
+.section-space {
+    padding-top: 3rem;
+}
+
 /*----About----*/
 
 #about {
@@ -113,7 +119,7 @@ hr {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "Exo", sans-serif; /*Check all the fonts*/
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -362,4 +368,34 @@ footer{
 
 .social-links a i:hover {
     background: #778899;
+}
+
+
+/*------Media-Queries------*/
+
+@media screen and (max-width:576px){
+    .work-exp {
+        padding-left: 50px;
+    }
+
+    .education{
+         padding-left: 50px;
+    }
+
+    .project-card{
+        margin-left: 45px;
+    }
+
+    .contact-details{
+        margin-bottom: 30px;
+    }
+
+    .contact-form{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .form-group{
+        width: 100%;
+    }
 }
