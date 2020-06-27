@@ -5,9 +5,8 @@ body {
 /*------NAVBAR-------*/
 
 .navbar {
-  background: none;
-  border-color: transparent;
-  letter-spacing: 7px;
+  font-size: 20px;
+  letter-spacing: 2px;
   color: transparent;
   text-align: center;
 }
@@ -28,6 +27,7 @@ body {
     letter-spacing: 0;
     background-color: transparent;
 }
+
 
 
 /*--------jumbotron------*/
@@ -97,6 +97,7 @@ hr {
 
 .about-text p {
   margin-left: 20px;
+  text-align: justify;
 }
 
 /*--------Work Experience AND Education-------*/
@@ -318,6 +319,10 @@ svg circle:nth-child(2) {
     margin: 20px;
 }
 
+.card-body h6 {
+    margin-bottom: 30px;
+}
+
 
 /*-----------Contact--------*/
 
@@ -414,5 +419,12 @@ footer{
 
     .form-group{
         width: 100%;
+    }
+}
+
+@media screen and (min-width:992px){
+    .about-text p {
+        margin-left: 200px;
+        margin-right: 200px;
     }
 }
