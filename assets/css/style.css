@@ -30,7 +30,6 @@ body {
 /*--------jumbotron------*/
 
 #first-section {
-  background-attachment: fixed;
   background-image: url("../images/desk.jpg");
   background-position: bottom;
   background-size: cover;
@@ -388,10 +387,6 @@ footer {
 /*------Media-Queries------*/
 
 @media screen and (max-width: 767px) {
-  #first-section {
-   background-size: 600px 767px;
-    background-repeat: no-repeat;
-  }
 
   .title {
     padding-left: 200px;
