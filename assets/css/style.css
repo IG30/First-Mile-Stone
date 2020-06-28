@@ -14,7 +14,7 @@ body {
 .navbar .navbar-collapse {
   text-align: right;
   border-top: 1px solid transparent;
-  overflow-x: hidden;
+ 
 }
 
 .navbar-brand{
@@ -27,6 +27,7 @@ body {
     letter-spacing: 0;
     background-color: transparent;
 }
+
 
 
 
