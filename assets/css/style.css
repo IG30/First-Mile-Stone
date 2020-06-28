@@ -389,7 +389,7 @@ footer {
 
 @media screen and (max-width: 767px) {
   #first-section {
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
   }
 
@@ -407,6 +407,12 @@ footer {
     font-size: 1.25rem;
   }
 
+  /*-----@media(max-width:767px) Skills---*/
+
+  .container-skills {
+    margin: 0;
+  }
+
   /*----- @media(max-width:767px) Work exp AND Education---*/
 
   .work-exp {
@@ -417,13 +423,23 @@ footer {
     padding-left: 50px;
   }
 
-/*---- @media(max-width:767px) Projects----*/
+  /*-----@media(max-width:767px) Skills---*/
 
-  .project-card {
-    margin-left: 45px;
+  .container-skills {
+    margin: 0;
   }
 
-/*---- @media(max-width:767px) Contact-----*/
+  /*---- @media(max-width:767px) Projects----*/
+
+  .projects-row {
+    margin: 0;
+  }
+
+  .project-card {
+    margin-left: 50px;
+  }
+
+  /*---- @media(max-width:767px) Contact-----*/
 
   .contact-details {
     margin-bottom: 30px;
