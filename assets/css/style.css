@@ -390,6 +390,7 @@ footer {
 @media screen and (max-width: 767px) {
   #first-section {
     background-size: auto;
+    background-repeat: no-repeat;
   }
 
   .title {
