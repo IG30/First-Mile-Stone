@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-  font-family: "Anton", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*------NAVBAR-------*/
@@ -113,7 +115,7 @@ hr {
 .timeline-item {
   padding: 4em 2em 0em 2em;
   position: relative;
-  color: #fafafa;
+  color: #f5fffa;
   border-left: 1px solid;
 }
 
@@ -128,7 +130,6 @@ hr {
   left: 2.5em;
   top: 3em;
   display: block;
-  font-family: "Exo", sans-serif; /*Check all the fonts*/
   font-weight: 500;
   font-size: 0.8em;
   padding: 0;
@@ -149,13 +150,13 @@ hr {
 
 /*------Skills------*/
 
-/* For this section a followed a tutorial about svg on youtube. I have adapted some of the styles to fit my project */
+/* For this section I followed a tutorial about svg on youtube. I have adapted some of the styles to fit my project. More information in the README.md */
 
 #skills {
   background-color: black;
   width: 100%;
   height: 100%;
-  color: #fff5ee;
+  color: #f5fffa;
 }
 
 .skills-header {
@@ -216,7 +217,7 @@ hr {
 }
 
 .percent .number h2 {
-  color: whitesmoke; /*check the color codes and improve them*/
+  color: #f5fffa; 
   font-size: 40px;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -226,12 +227,12 @@ hr {
 
 .card:hover .percent .number h2 {
   font-size: 50px;
-  color: white;
+  color:#f5fffa;
 }
 
 .percent .number h2 span {
   font-size: 20px;
-  color: whitesmoke;
+  color: #f5fffa;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -239,7 +240,7 @@ hr {
 }
 
 .card:hover .percent .number h2 span {
-  color: white;
+  color: #f5fffa;
 }
 
 .skills-text {
@@ -278,24 +279,24 @@ svg circle:nth-child(2) {
 
 .card:nth-child(1) svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 90) / 100);
-  stroke: #f0fff0;
+  stroke: #f5fffa;
 }
 
 .card:nth-child(2) svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 85) / 100);
-  stroke: #f0fff0;
+  stroke: #f5fffa;
 }
 
 .card:nth-child(3) svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 40) / 100);
-  stroke: #f0fff0;
+  stroke: #f5fffa;
 }
 
 /*------------Projects-----*/
 
 #projects {
   background-color: black;
-  color: #fff5ee;
+  color: #f5fffa;
 }
 
 .project-header {
@@ -308,9 +309,9 @@ svg circle:nth-child(2) {
 
 .project-card {
   width: 18rem;
-  background: #f5f5f5;
+  background: #f5fffa;
   border: 1px solid #777777;
-  color: #777777;
+  color: #696969;
   margin: 20px;
 }
 
@@ -322,7 +323,7 @@ svg circle:nth-child(2) {
 
 #contact {
   background-color: black;
-  color: #fff5ee;
+  color: #f5fffa;
   padding-bottom: 30px;
 }
 
@@ -372,7 +373,7 @@ footer {
   border-radius: 50%;
   font-size: 40px;
   text-align: center;
-  color: #fafafa;
+  color: #f5fffa;
   background: black;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
