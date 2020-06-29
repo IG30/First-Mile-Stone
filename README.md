@@ -101,7 +101,7 @@ Devices Used:
 * Huawei P20 pro - Android 10
 * iPhone XR – iOS 13.5.1
 * HP Laptop – Windows 10
-* iPad IPadOS 13.5.1
+* iPad iPadOS 13.5.1
 
 Browsers Used:
 
@@ -110,11 +110,15 @@ Browsers Used:
 * Microsoft Edge
 * Safari
 
-### Bugs ###
+## Bugs ##
 
 There was a bug with in the landing image with IOS devices. They didn't support a fixed background. The image appear incremented in size when open the webon and Iphone or Ipad.
 I wasn't able to find a solution that could mantain the style and work in a IOS device at the same time. I decition was made on changing the style. After that everything worked
 as expected in all devices. 
+
+In the skill section we are using svg to create the effect of a progress bar around the circle. Testing this feature we came across that in mobile the effect doesn't work.
+The bar goes all the way around the circle rather than match the % inside the circle. As the style is not compromise on the page and I am planing to add a feature that inprove
+this animation in a near future I have decided to leave for the moment as I haven't been able to find a quick fix. 
 
 ## Deployment ##
 
@@ -127,11 +131,18 @@ Underneath the heading there is a source and I chose master branch from the drop
 
 ### Content ###
 
-The text in the about me section has been created and translated by me. 
+* The text in the about me section has been created and translated by me. 
 
 ### Media ###
 
-The photos of this page were found doing an advance search in google. Selecting color: "black and white" and in "using rights" selecting "free to use and share, even commercialy". 
+* The photos of this page were found doing an advance search in google. Selecting color: "black and white" and in "using rights" selecting "free to use and share, even commercialy".
+
+### Acknowledgments ###
+
+* [Code institute](https://codeinstitute.net/) For their guidance throughtout the process.
+* "Online Tutorial" channel on youtube. I followed one of their videos to create my skill section. The video can be found [here](https://www.youtube.com/watch?v=Ft73g5Kyknw).
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Their documantation helped me to create the navbar, the scrollspy feature and overall a better responsive design.
+* [W3schools](https://www.w3schools.com/) Their documantation helped me to answer questions about a particular property.
 
 
 
