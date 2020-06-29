@@ -22,7 +22,7 @@ To achive this we have include a section with a showcase of work experience and 
 
 And two links to download my resume. One at the top in the navbar and another one at the bottom in the footer with link to Linkedin.
 
-![navbar_cv_img](assets/images/navbar_cv.PNG)
+![navbar_cv_img](assets/images/navbar_cv.PNG) <br/>
 ![footer_icons_img](assets/images/footer_links.PNG)
 
 #### As an employer, I want to see Ignacio's work. ####
@@ -32,7 +32,7 @@ Also as showed in a previous image the footer has a link to my GitHub.
 
 ![projects_img](assets/images/projects.PNG)
 
-#### As a recruiter, I want to contact him after seeing the portfolio.###
+#### As a recruiter, I want to contact him after seeing the portfolio.####
 
 The contact section provide my email phone number and a form for the user to send me their details and a message.
 
@@ -43,6 +43,8 @@ The contact section provide my email phone number and a form for the user to sen
 These can be found at the link below:
 
 https://github.com/IG30/First-Mile-Stone/tree/master/wireframes
+
+
 
 
 
