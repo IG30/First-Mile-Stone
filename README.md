@@ -67,10 +67,26 @@ spycroll that tell the user in which section the are by hightlighting the name o
 
 ## Technologies Used ##
 
-*HTML5 - to build the structure and layout of the page.
-*CSS3 - to give the style.
-*Bootstrap - to get the layout running and also to help with the responsive design.
+* HTML5 - to build the structure and layout of the page.
+* CSS3 - to give the style.
+* Bootstrap - to get the layout running and also to help with the responsive design.
 
+## Testing ##
+
+Devices Used:
+
+* Samsung Galaxy S8 – Android 10
+* Huawei P20 pro - Android 10
+* iPhone XR – iOS 13.5.1
+* HP Laptop – Windows 10
+* iPad IPadOS 13.5.1
+
+Browsers Used:
+
+* Chrome
+* Firefox
+* Microsoft Edge
+* Safari
 
 
 
