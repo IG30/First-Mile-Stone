@@ -67,13 +67,33 @@ spycroll that tell the user in which section the are by hightlighting the name o
 
 ## Technologies Used ##
 
-
-
 * HTML5 - to build the structure and layout of the page.
 * CSS3 - to give the style.
 * Bootstrap - to get the layout running and also to help with the responsive design.
 
 ## Testing ##
+
+1. Go to the Navbar:
+* Click on each section name (About, Skills, Projects and Contact) and verify that it brings you to the correct section.
+* Scroll down the page and verify that the feature spyscroll is working as expected. Hightlighting the name of the section that the user is on.
+* Clinck on the language button and verify that the link to the difference version are working as expected.
+* Verify that the download cv buttons opens in a new tab and the cv download correctly.
+* Verify that the hover effect is working on the buttons.
+* Scroll down the age and verify that the navbar stay at the top of the page.
+* Go to any section and then click the logo at the left side of the navbar to verify that it will bring you to the to of the page.
+2. Go to the skills section:
+* Hover on top of the number to verify that the animation work as expected.
+* Check that the svg progress circle border bars are working as expected.
+3. Go to the project section:
+* Click on eache "view project" button and verify that they open in a new tab and the direct you to the Code Institute page. 
+* Verify that the hover effect is working on the buttons.
+4. Go to the contact section:
+* Try to submit the empty form and verify that an error message about the required fields appears.
+* Try to submit the form with an invalid email address and verify that a relevant error message appears.
+* Try to submit the form with all inputs valid and verify that a success message appears.
+5. Go to the footer:
+* Verify that when clicking on the links they open in a new tab and they direct the user to the correct page.
+
 
 Devices Used:
 
@@ -90,7 +110,7 @@ Browsers Used:
 * Microsoft Edge
 * Safari
 
-## Bugs ## 
+### Bugs ###
 
 There was a bug with in the landing image with IOS devices. They didn't support a fixed background. The image appear incremented in size when open the webon and Iphone or Ipad.
 I wasn't able to find a solution that could mantain the style and work in a IOS device at the same time. I decition was made on changing the style. After that everything worked
@@ -111,7 +131,7 @@ The text in the about me section has been created and translated by me.
 
 ### Media ###
 
-The photos of this page were found doing an advance search in google. Selecting color "black and white" and in using rights selectin "free to use and share, even commercialy". 
+The photos of this page were found doing an advance search in google. Selecting color: "black and white" and in "using rights" selecting "free to use and share, even commercialy". 
 
 
 
