@@ -67,6 +67,8 @@ spycroll that tell the user in which section the are by hightlighting the name o
 
 ## Technologies Used ##
 
+
+
 * HTML5 - to build the structure and layout of the page.
 * CSS3 - to give the style.
 * Bootstrap - to get the layout running and also to help with the responsive design.
@@ -87,6 +89,29 @@ Browsers Used:
 * Firefox
 * Microsoft Edge
 * Safari
+
+## Bugs ## 
+
+There was a bug with in the landing image with IOS devices. They didn't support a fixed background. The image appear incremented in size when open the webon and Iphone or Ipad.
+I wasn't able to find a solution that could mantain the style and work in a IOS device at the same time. I decition was made on changing the style. After that everything worked
+as expected in all devices. 
+
+## Deployment ##
+
+My website is currently deployed on Github Pages - https://ig30.github.io/First-Mile-Stone/
+
+I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and scrolling down to the heading GitHub Pages.
+Underneath the heading there is a source and I chose master branch from the dropdown which allows you to host the website on GitHub Pages.
+
+## Credits ##
+
+### Content ###
+
+The text in the about me section has been created and translated by me. 
+
+### Media ###
+
+The photos of this page were found doing an advance search in google. Selecting color "black and white" and in using rights selectin "free to use and share, even commercialy". 
 
 
 
