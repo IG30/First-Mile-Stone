@@ -20,21 +20,21 @@ To achive this we have include a section with a showcase of work experience and 
 
 ![wor_exp_img](assets/images/work_exp.PNG)
 
-And two links to download my resume. One at the top in the navbar and another one at the bottom in the footer with link to Linkedin.
+And two links to download my resume. One at the top in the navbar and another one at the bottom in the footer with a link to Linkedin.
 
 ![navbar_cv_img](assets/images/navbar_cv.PNG) <br/>
 ![footer_icons_img](assets/images/footer_links.PNG)
 
 #### As an employer, I want to see Ignacio's work. ####
 
-The web has a section that showcase three projects. At this stage the projects are link to the code insitute website, but in a near future they will be linked to real projects.
+The web has a section that showcase three projects. At this stage the projects are link to the Code Insitute website, but in a near future they will be linked to real projects.
 Also as showed in a previous image the footer has a link to my GitHub.
 
 ![projects_img](assets/images/projects.PNG)
 
-#### As a recruiter, I want to contact him after seeing the portfolio. ####
+#### As a recruiter, I want to contact Ignacio after seeing his portfolio. ####
 
-The contact section provide my email, phone number and a form for the user to send me their details and a message.
+The contact section provides my email, phone number and a form for the user to send me their details and a message.
 
 ![contact_img](assets/images/contact.PNG)
 
@@ -44,7 +44,7 @@ These can be found at the link below:
 
 https://github.com/IG30/First-Mile-Stone/tree/master/wireframes
 
-The website has a simple style using a color schme of black, white and grey. 
+The website has a simple style using a color scheme of black, white and grey. 
 
 ## Features ##
 
@@ -55,7 +55,7 @@ spycroll that tell the user in which section the are by hightlighting the name o
 
 3. The skill section give the user an idea of the level of my coding skills.
 
-4. the contact section provides a form to the user in which they can contact me. 
+4. The contact section provides a form to the user in which they can contact me. 
 
 
 ### Features left to implement ###
@@ -69,23 +69,23 @@ spycroll that tell the user in which section the are by hightlighting the name o
 
 * HTML5 - to build the structure and layout of the page.
 * CSS3 - to give the style.
-* Bootstrap - to get the layout running and also to help with the responsive design.
+* Bootstrap 4.5.0 - to get the layout running and also to help with the responsive design.
 
 ## Testing ##
 
 1. Go to the Navbar:
 * Click on each section name (About, Skills, Projects and Contact) and verify that it brings you to the correct section.
 * Scroll down the page and verify that the feature spyscroll is working as expected. Hightlighting the name of the section that the user is on.
-* Clinck on the language button and verify that the link to the difference version are working as expected.
+* Clinck on the language button and verify that the link to the different version is working as expected.
 * Verify that the download cv buttons opens in a new tab and the cv download correctly.
 * Verify that the hover effect is working on the buttons.
-* Scroll down the age and verify that the navbar stay at the top of the page.
-* Go to any section and then click the logo at the left side of the navbar to verify that it will bring you to the to of the page.
+* Scroll down the page and verify that the navbar stay at the top of the page.
+* Go to any section and then click the logo at the left side of the navbar to verify that it will bring you to the top of the page.
 2. Go to the skills section:
 * Hover on top of the number to verify that the animation work as expected.
 * Check that the svg progress circle border bars are working as expected.
 3. Go to the project section:
-* Click on eache "view project" button and verify that they open in a new tab and the direct you to the Code Institute page. 
+* Click on each "view project" button and verify that they open in a new tab and they direct the user to the Code Institute page. 
 * Verify that the hover effect is working on the buttons.
 4. Go to the contact section:
 * Try to submit the empty form and verify that an error message about the required fields appears.
@@ -112,13 +112,13 @@ Browsers Used:
 
 ## Bugs ##
 
-There was a bug with in the landing image with IOS devices. They didn't support a fixed background. The image appear incremented in size when open the webon and Iphone or Ipad.
-I wasn't able to find a solution that could mantain the style and work in a IOS device at the same time. I decition was made on changing the style. After that everything worked
+There was a bug with the landing image with IOS devices. They didn't support a fixed background. The image appear incremented in size when open the web on and Iphone or Ipad.
+I wasn't able to find a solution that could mantain the style and work in a IOS device at the same time. A decision was made on changing the style. After that everything worked
 as expected in all devices. 
 
 In the skill section we are using svg to create the effect of a progress bar around the circle. Testing this feature we came across that in mobile the effect doesn't work.
-The bar goes all the way around the circle rather than match the % inside the circle. As the style is not compromise on the page and I am planing to add a feature that inprove
-this animation in a near future I have decided to leave for the moment as I haven't been able to find a quick fix. 
+The bar goes all the way around the circle rather than match the % inside the circle. As the style is not compromise on the page and I am planing to add a feature that improve
+this animation in a near future I have decided to leave it for the moment as I'm trying to find the best possible solution. 
 
 ## Deployment ##
 
@@ -131,11 +131,11 @@ Underneath the heading there is a source and I chose master branch from the drop
 
 ### Content ###
 
-* The text in the about me section has been created and translated by me. 
+* The text in this pages has been created and translated by me. 
 
 ### Media ###
 
-* The photos of this page were found doing an advance search in google. Selecting color: "black and white" and in "using rights" selecting "free to use and share, even commercialy".
+* The photos in this page were found doing an advance search in google. Selecting color: "black and white" and in "using rights" selecting "free to use and share, even commercialy".
 
 ### Acknowledgments ###
 
