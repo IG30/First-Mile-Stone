@@ -143,6 +143,8 @@ Underneath the heading there is a source and I chose master branch from the drop
 * "Online Tutorial" channel on youtube. I followed one of their videos to create my skill section. The video can be found [here](https://www.youtube.com/watch?v=Ft73g5Kyknw).
 * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Their documantation helped me to create the navbar, the scrollspy feature and overall a better responsive design.
 * [W3schools](https://www.w3schools.com/) Their documantation helped me to answer questions about a particular property.
+* [Font Awsome](https://www.bootstrapcdn.com/fontawesome/) I used their icons in the website.
+* [Google Fonts](https://fonts.google.com/)  The fonts on the website are from google fonts.
 
 
 
