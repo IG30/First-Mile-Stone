@@ -387,7 +387,7 @@ footer {
 
 /*------Media-Queries------*/
 
-@media screen and (max-width: 767px) and (orientation : portrait) {
+@media screen and (max-width: 767px) {
 
   .title {
     padding-left: 200px;
@@ -450,6 +450,23 @@ footer {
     width: 100%;
   }
 }
+
+@media screen and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+  .title {
+    padding-left: 200px;
+    margin-top: 20%;
+  }
+
+  .title h1 {
+    font-size: 2.5rem;
+  }
+
+  .title p {
+    font-size: 1.25rem;
+  }
 
 @media screen and (min-width: 992px) {
   .about-text p {
