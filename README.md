@@ -57,6 +57,8 @@ spycroll that tell the user in which section the are by hightlighting the name o
 
 4. The contact section provides a form to the user in which they can contact me. 
 
+5. The tooltip feature from Bootstrap let the user know the action of a link by just hovering on top of it. It creates a better user experience.
+
 
 ### Features left to implement ###
 
@@ -70,6 +72,7 @@ spycroll that tell the user in which section the are by hightlighting the name o
 * HTML5 - to build the structure and layout of the page.
 * CSS3 - to give the style.
 * Bootstrap 4.5.0 - to get the layout running and also to help with the responsive design.
+* JavaScript - For the tooltips feature.
 
 ## Testing ##
 
@@ -141,7 +144,7 @@ Underneath the heading there is a source and I chose master branch from the drop
 
 * [Code institute](https://codeinstitute.net/) I used some of the code learned in the modules and for their guidance throughtout the process.
 * "Online Tutorial" channel on youtube. I followed one of their videos to create my skill section. The video can be found [here](https://www.youtube.com/watch?v=Ft73g5Kyknw).
-* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Their documantation helped me to create the navbar, the scrollspy feature and overall a better responsive design.
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Their documantation helped me to create the navbar, the tooltip, the scrollspy feature and overall a better responsive design.
 * [W3schools](https://www.w3schools.com/) Their documantation helped me to answer questions about a particular property.
 * [Font Awsome](https://www.bootstrapcdn.com/fontawesome/) I used their icons in the website.
 * [Google Fonts](https://fonts.google.com/)  The fonts on the website are from google fonts.
