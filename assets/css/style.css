@@ -467,6 +467,7 @@ and (orientation : portrait) {
   .title p {
     font-size: 1.25rem;
   }
+}
 
 @media screen and (min-width: 992px) {
   .about-text p {
