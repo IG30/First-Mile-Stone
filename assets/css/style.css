@@ -43,7 +43,6 @@ body {
 
 .title {
   margin-top: 8%;
-  margin-right: 15%;
   text-align: right;
   color: #f5fffa;
 }
@@ -391,7 +390,7 @@ footer {
   .title {
     padding-left: 200px;
     margin-top: 20%;
-    margin-right: 10%;
+    margin-right: 20%;
   }
 
   .title h1 {
